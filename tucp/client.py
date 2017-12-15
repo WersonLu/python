@@ -5,16 +5,12 @@
 '''
  
 @author: wersonliu
- 
-@license: (C) Copyright 2013-2017, Node Supply Chain Manager Corporation Limited.
- 
+
 @contact: wersonliugmail.com
- 
-@software: garner
- 
+
 @file: client.py
  
-@time: 2017/12/6 9:40
+@time: 2017/12/15 9:40
  
 @desc:
  

@@ -6,15 +6,9 @@
  
 @author: wersonliu
  
-@license: (C) Copyright 2013-2017, Node Supply Chain Manager Corporation Limited.
- 
-@contact: wersonliugmail.com
- 
-@software: garner
- 
 @file: tcpdemo.py
  
-@time: 2017/12/6 9:30
+@time: 2017/12/15 9:30
  
 @desc:
  
@@ -22,6 +16,10 @@
 import socket
 import threading
 import time
+
+
+#  tcp 三次握手 可靠  稍慢
+# udp 快 不可靠
 
 
 def dealClient(sock, addr):

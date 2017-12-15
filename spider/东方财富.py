@@ -14,6 +14,7 @@
 import urllib
 import urllib.request
 import re
+import os
 
 
 def getpage(path):
@@ -31,10 +32,32 @@ def getcode(data):
     return codelist
 
 
+def download(code, name, data):
+    path = r"E:\\数据文件\\股票下载\\" + data
+    # 文件不存在就创建
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+    inshorsz = None
+    if code[0:2] == "sh":
+        inshorsz = 0
+    else:
+        inshorsz = 1
+    if inshorsz != 10:
+        url = "http://quotes.money.163.com/service/chddata.html?code=" + str(inshorsz) + code[
+                                                                                         2:] + "&end=20130523&fields=TCLOSE;HIGH;LOW;TOPEN;LCLOSE;CHG;PCHG;TURNOVER;VOTURNOVER;VATURNOVER;TCAP;MCAP"
+        path = "E:\\数据文件\\股票下载\\" + data + "\\" + name + ".csv"
+        urllib.request.urlretrieve(url, path)
+
+
 path = "http://quote.eastmoney.com/stocklist.html"
 data = getpage(path)  # 抓取了网页源代码
 codelist = getcode(data)
 # print(codelist)
 
 for code in codelist:
-    print(code[0], code[1])
+    # print(code[0], code[1])
+    try:
+        download(code[0], code[1], "20171214")
+    except:
+        print("error")
