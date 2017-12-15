@@ -1,0 +1,453 @@
+1512727185789	geckodriver	INFO	geckodriver 0.19.1
+1512727185805	geckodriver	INFO	Listening on 127.0.0.1:60359
+1512727188002	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.YZv25d5LWej9"
+1512727194715	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512727206622	Marionette	INFO	Listening on port 60371
+1512727206955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512727207030	Marionette	DEBUG	Register listener.js for window 4294967297
+1512727207124	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512727207310	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512727207311	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512727208183	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512727214217	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://hotel.qunar.com/city/beijing_city/#fromDate=2017-12-09&cityurl=beijing_city&from=qunarHotel&toDate=2017-12-10, line 67: String.trim is deprecated; use String.prototype.trim instead
+JavaScript warning: http://te.hotel.qunar.com/render/te, line 1: unreachable code after return statement
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/stylesheet171, type getOriginalLocation failed
+
+Request stack:
+request@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1296:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1454:14
+getOriginalLocation@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:237:12
+getOriginalSourceStrings@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/rule.js:139:12
+updateSourceLink@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:275:7
+_create@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:124:5
+RuleEditor@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:77:3
+_createEditors@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:1086:23
+_populate/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:894:28
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+  Stack:
+    destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1239:23
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/stylesheets.js:109:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:877:9
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1241:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js:2596:7
+onClick@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/components/toolbox-toolbar.js:223:9
+invokeGuardedCallback@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11386:12
+executeDispatch@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2893:5
+executeDispatchesInOrder@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2916:5
+executeDispatchesAndRelease@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2348:5
+executeDispatchesAndReleaseTopLevel@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2359:10
+forEachAccumulated@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:19780:5
+processEventQueue@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2535:7
+runEventQueueInBatch@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11455:3
+handleTopLevel@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11466:5
+handleTopLevelImpl@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11544:5
+perform@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:19035:13
+batchedUpdates@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:10660:7
+batchedUpdates@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:16668:3
+dispatchEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11621:7
+
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/stylesheet171, type getOriginalLocation failed
+
+Request stack:
+request@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1296:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1454:14
+getOriginalLocation@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:237:12
+getOriginalSourceStrings@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/rule.js:139:12
+updateSourceLink@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:275:7
+_create@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:124:5
+RuleEditor@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/views/rule-editor.js:77:3
+_createEditors@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:1086:23
+_populate/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:894:28
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+  Stack:
+    destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1239:23
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/stylesheets.js:109:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:877:9
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1241:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js:2596:7
+onClick@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/components/toolbox-toolbar.js:223:9
+invokeGuardedCallback@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11386:12
+executeDispatch@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2893:5
+executeDispatchesInOrder@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2916:5
+executeDispatchesAndRelease@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2348:5
+executeDispatchesAndReleaseTopLevel@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2359:10
+forEachAccumulated@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:19780:5
+processEventQueue@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:2535:7
+runEventQueueInBatch@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11455:3
+handleTopLevel@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11466:5
+handleTopLevelImpl@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11544:5
+perform@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:19035:13
+batchedUpdates@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:10660:7
+batchedUpdates@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:16668:3
+dispatchEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react.js:11621:7
+
+JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/webconsole/new-console-output/new-console-output-wrapper.js, line 77: TypeError: this.jsterm.hud is null
+[Parent 8548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512728386961	geckodriver	INFO	geckodriver 0.19.1
+1512728386971	geckodriver	INFO	Listening on 127.0.0.1:62469
+1512728389078	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.xegCiBZbaxpI"
+1512728389707	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512728391392	Marionette	INFO	Listening on port 62476
+1512728392225	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512728392301	Marionette	DEBUG	Register listener.js for window 4294967297
+1512728392323	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512728392485	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512728392486	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512728393066	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512728397698	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 1056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512728509753	geckodriver	INFO	geckodriver 0.19.1
+1512728509762	geckodriver	INFO	Listening on 127.0.0.1:62765
+1512728511984	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.ILUWNneeBvBI"
+1512728512526	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13860, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512728514114	Marionette	INFO	Listening on port 62776
+1512728515137	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512728515202	Marionette	DEBUG	Register listener.js for window 4294967297
+1512728515224	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512728515393	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512728515394	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512728516056	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512728518438	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+[Parent 13860, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512728559975	geckodriver	INFO	geckodriver 0.19.1
+1512728559984	geckodriver	INFO	Listening on 127.0.0.1:62945
+1512728562109	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.aMNGBACnX7Eb"
+1512728562621	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512728564393	Marionette	INFO	Listening on port 62954
+1512728565231	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512728565325	Marionette	DEBUG	Register listener.js for window 4294967297
+1512728565364	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512728565538	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512728565538	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512728566226	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512728568555	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessagUnable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7848, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nt
+JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8232, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512729670373	geckodriver	INFO	geckodriver 0.19.1
+1512729670395	geckodriver	INFO	Listening on 127.0.0.1:49979
+1512729672405	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.AfQfL6OshLk3"
+1512729672973	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512729674514	Marionette	INFO	Listening on port 49986
+1512729675520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512729675580	Marionette	DEBUG	Register listener.js for window 4294967297
+1512729675604	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512729675763	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512729675764	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512729676428	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512729678760	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+1512729679282	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512729679418	Marionette	DEBUG	Received DOM event "beforeunload" for "http://hotel.qunar.com/"
+1512729679430	Marionette	DEBUG	Received DOM event "popstate" for "http://hotel.qunar.com/#"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://hotel.qunar.com/city/beijing_city/#fromDate=2017-12-08&cityurl=beijing_city&from=qunarHotel&toDate=2017-12-09, line 67: String.trim is deprecated; use String.prototype.trim instead
+JavaScript warning: http://te.hotel.qunar.com/render/te, line 1: unreachable code after return statement
+JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+1512729929583	geckodriver	INFO	geckodriver 0.19.1
+1512729929593	geckodriver	INFO	Listening on 127.0.0.1:50552
+1512729931700	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.ff5yPncJ8y55"
+1512729932208	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512729933931	Marionette	INFO	Listening on port 50560
+1512729934830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512729934911	Marionette	DEBUG	Register listener.js for window 4294967297
+1512729934937	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512729935113	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512729935113	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512729935924	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512729938533	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+1512729939088	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512729939265	Marionette	DEBUG	Received DOM event "beforeunload" for "http://hotel.qunar.com/"
+1512729939295	Marionette	DEBUG	Received DOM event "popstate" for "http://hotel.qunar.com/#"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://hotel.qunar.com/city/shanghai_city/#fromDate=2017-12-08&cityurl=shanghai_city&from=qunarHotel&toDate=2017-12-09, line 67: String.trim is deprecated; use String.prototype.trim instead
+JavaScript warning: http://te.hotel.qunar.com/render/te, line 1: unreachable code after return statement
+JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+1512730323724	geckodriver	INFO	geckodriver 0.19.1
+1512730323733	geckodriver	INFO	Listening on 127.0.0.1:51380
+1512730325850	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.9aefEiq8z4yu"
+1512730326443	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512730328147	Marionette	INFO	Listening on port 51386
+1512730328978	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512730329064	Marionette	DEBUG	Register listener.js for window 4294967297
+1512730329084	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512730329264	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512730329265	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512730329798	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512730332198	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+1512730332780	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512730333025	Marionette	DEBUG	Received DOM event "beforeunload" for "http://hotel.qunar.com/"
+1512730333059	Marionette	DEBUG	Received DOM event "popstate" for "http://hotel.qunar.com/#"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://hotel.qunar.com/city/shanghai_city/#fromDate=2017-12-08&cityurl=shanghai_city&from=qunarHotel&toDate=2017-12-09, line 67: String.trim is deprecated; use String.prototype.trim instead
+JavaScript warning: http://te.hotel.qunar.com/render/te, line 1: unreachable code after return statement
+JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512788867188	geckodriver	INFO	geckodriver 0.19.1
+1512788867206	geckodriver	INFO	Listening on 127.0.0.1:57567
+1512788869227	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.WcGpH23a7ts3"
+1512788870561	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512788872324	Marionette	INFO	Listening on port 57575
+1512788872374	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512788872468	Marionette	DEBUG	Register listener.js for window 4294967297
+1512788872542	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512788872718	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512788872718	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512788873451	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512788875983	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+1512788876600	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512788876822	Marionette	DEBUG	Received DOM event "beforeunload" for "http://hotel.qunar.com/"
+1512788876852	Marionette	DEBUG	Received DOM event "popstate" for "http://hotel.qunar.com/#"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://hotel.qunar.com/city/shanghai_city/#fromDate=2017-12-09&cityurl=shanghai_city&from=qunarHotel&toDate=2017-12-10, line 67: String.trim is deprecated; use String.prototype.trim instead
+JavaScript warning: http://te.qunarzz.com/hotel_fekit/prd/scripts/list@9f8c29588d3bf804160d.js, line 1: unreachable code after return statement
+JavaScript warning: http://te.qunarzz.com/hotel_fekit/prd/scripts/list@9f8c29588d3bf804160d.js line 1 > eval, line 1: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18824, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18824, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512789240023	geckodriver	INFO	geckodriver 0.19.1
+1512789240033	geckodriver	INFO	Listening on 127.0.0.1:58297
+1512789242212	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.l2prg4tCgjEf"
+1512789243649	Marionette	INFO	Enabled via --marionette
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512789245406	Marionette	INFO	Listening on port 58303
+1512789245837	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512789245904	Marionette	DEBUG	Register listener.js for window 4294967297
+1512789245928	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512789246091	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512789246091	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512789246671	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512789248938	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+1512789249617	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789249785	Marionette	DEBUG	Received DOM event "beforeunload" for "http://hotel.qunar.com/"
+1512789249803	Marionette	DEBUG	Received DOM event "popstate" for "http://hotel.qunar.com/#"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://hotel.qunar.com/city/shanghai_city/#fromDate=2017-12-09&cityurl=shanghai_city&from=qunarHotel&toDate=2017-12-10, line 67: String.trim is deprecated; use String.prototype.trim instead
+JavaScript warning: http://te.hotel.qunar.com/render/te, line 1: unreachable code after return statement
+JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
+1512789261333	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789282053	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789302731	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789323417	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789344224	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789365000	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789385907	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789406601	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789427295	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789448063	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789468718	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789489415	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789510211	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789530904	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789551609	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789572352	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789593072	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789613751	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789634789	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789655565	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789676331	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789697112	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789717803	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789738507	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789759277	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789780004	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789800887	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789821680	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789842371	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789863148	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789884228	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789904970	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789926282	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789947028	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789967736	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512789988547	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790009297	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790030038	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790050806	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790072055	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790092754	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790113616	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790134377	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790155481	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790176255	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790197009	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790217763	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790238699	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512790259377	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512968641488	geckodriver	INFO	geckodriver 0.19.1
+1512968641554	geckodriver	INFO	Listening on 127.0.0.1:52857
+1512968643622	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.CQh5RTQUhQ2Z"
+1512968647568	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512968658930	Marionette	INFO	Listening on port 52864
+1512968659400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512968659457	Marionette	DEBUG	Register listener.js for window 4294967297
+1512968659496	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512968659691	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512968659691	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512968660657	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1512968667291	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+1512968667811	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512968667975	Marionette	DEBUG	Received DOM event "beforeunload" for "http://hotel.qunar.com/"
+1512968668036	Marionette	DEBUG	Received DOM event "popstate" for "http://hotel.qunar.com/#"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://hotel.qunar.com/city/shanghai_city/#fromDate=2017-12-11&cityurl=shanghai_city&from=qunarHotel&toDate=2017-12-12, line 67: String.trim is deprecated; use String.prototype.trim instead
+JavaScript warning: http://te.hotel.qunar.com/render/te, line 1: unreachable code after return statement
+JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
+1512968679328	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1512968700830	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
