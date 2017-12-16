@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a49966d5-2711-4b7c-9dc9-9aa6ea2ef2de" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cnblogSpider/cnblogSpider/spiders/cnblogs_spider.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cnblogSpider/书上的案列项目" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/爬虫/九分半美女下载.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/爬虫/回顾selenium.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/爬虫/简易下载图片.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/进程和线程/定时线程.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/进程和线程/电影动态爬虫.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/studypython.iml" afterPath="$PROJECT_DIR$/.idea/studypython.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/spider/pm2.5检测.py" afterPath="$PROJECT_DIR$/spider/pm2.5检测.py" />
-      <change beforePath="$PROJECT_DIR$/spider/qunaer.py" afterPath="$PROJECT_DIR$/spider/qunaer.py" />
-      <change beforePath="$PROJECT_DIR$/进程和线程/多线程的必要性.py" afterPath="$PROJECT_DIR$/进程和线程/多线程的必要性.py" />
-      <change beforePath="$PROJECT_DIR$/进程和线程/线程通信和事件.py" afterPath="$PROJECT_DIR$/进程和线程/线程通信和事件.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +35,8 @@
       <file leaf-file-name="cnblogs_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cnblogSpider/cnblogSpider/spiders/cnblogs_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="38" column="75" lean-forward="false" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+            <state relative-caret-position="101">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#129#138#0" expanded="true" />
               </folding>
@@ -571,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513315653470</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="laptop 12.16">
+      <created>1513416306010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513416306010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -645,7 +639,8 @@
     <MESSAGE value="laptop" />
     <MESSAGE value="keng" />
     <MESSAGE value="弄了很久才知道有文件大小限制" />
-    <option name="LAST_COMMIT_MESSAGE" value="弄了很久才知道有文件大小限制" />
+    <MESSAGE value="laptop 12.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="laptop 12.16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1007,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cnblogSpider/cnblogSpider/spiders/cnblogs_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="38" column="75" lean-forward="false" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+        <state relative-caret-position="101">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="e#129#138#0" expanded="true" />
           </folding>
