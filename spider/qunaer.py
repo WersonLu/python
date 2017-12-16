@@ -11,7 +11,7 @@
 @time: 2017/12/8 16:17
  
 '''
-# 去哪儿酒店 模拟浏览式爬取
+# 去哪儿酒店 模拟浏览器爬取
 import codecs
 import datetime
 from bs4 import BeautifulSoup

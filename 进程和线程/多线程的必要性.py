@@ -21,9 +21,9 @@ def go():
         time.sleep(1)
 
 
-# for i in range(4):
-#     go()      #非常慢打印结束需要40多秒
-# print("结束")
+for n in range(4):
+    go()  # 非常慢打印结束需要40多秒
+print("结束")
 
 for i in range(4):
     # 采用多线程  用死循环阻塞线程防止主线程挂掉

@@ -37,3 +37,14 @@ def go2():
 cond = threading.Condition()  # 线程条件变量
 threading.Thread(target=go2).start()
 threading.Thread(target=go1).start()
+# Thread-1 0
+# Thread-2 1
+# Thread-1 2
+# Thread-2 3
+# Thread-1 4
+# Thread-2 5
+# Thread-1 6
+# Thread-2 7
+# Thread-1 8
+# Thread-2 9
+# Thread-1 10
