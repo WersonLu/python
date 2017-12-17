@@ -8,19 +8,11 @@
 
 @contact: wersonliugmail.com
  
-@time: 2017/12/16 13:52
+@time: 2017/12/11 13:52
  
 '''
 import urllib.request
 import requests
-
-
-def download(blocknum, blocksize, totalsize):
-    per = 100.0 * blocknum * blocksize / totalsize
-    if per > 100:
-        per = 100
-        print("下载进度为%s" % per)
-
 
 response = requests.get('https://api.jfbapp.cn/facemesh/billboard')
 
@@ -30,6 +22,6 @@ for i in arr:
     soce = i['score']
     url = i['image']
     try:
-        urllib.request.urlretrieve(url, 'E:\\python\\爬虫\\图片\\' + des + '得分' + soce + '.jpg')
+        urllib.request.urlretrieve(url, 'F:\\python\\爬虫\\图片\\' + des + '得分' + soce + '.jpg')
     except:
         continue

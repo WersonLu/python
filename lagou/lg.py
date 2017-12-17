@@ -3,21 +3,9 @@
 # encoding: utf-8
 
 '''
- 
 @author: wersonliu
- 
-@license: (C) Copyright 2013-2017, Node Supply Chain Manager Corporation Limited.
- 
 @contact: wersonliugmail.com
- 
-@software: garner
- 
-@file: lg.py
- 
 @time: 2017/12/5 12:25
- 
-@desc:
- 
 '''
 import requests
 

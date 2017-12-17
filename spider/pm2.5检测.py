@@ -10,14 +10,11 @@ import requests
 import threading
 from bs4 import BeautifulSoup
 
-
 def login():
     itchat.auto_login()
 
-
 def gupiao():
     pass  # 股票监控,其他监控
-
 
 def getPM25(cityname):
     site = 'http://www.pm25.com/' + cityname + '.html'
