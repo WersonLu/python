@@ -14,7 +14,7 @@
 # 詹姆斯生涯数据
 import pandas as pd
 import matplotlib.pyplot as plt
-import numba as np
+import numpy as np
 
 data = pd.read_csv('zms.csv')
 # print(data.shape)  # (15, 30)
@@ -57,11 +57,40 @@ best_zms = pd.Series(max_data)
 # 篮板     8.6
 
 # 可视化
-
+# 得分
 # x = pd.data_range('2003', '2017', freq='365D')
-x=pd.date_range('2003', '2017', freq='365D')
-y = data.PTS
+# x = pd.date_range('2003', '2017', freq='365D')
+# y = data.PTS
+# plt.xlabel('session')
+# plt.ylabel('point')
+# plt.plot(x, y)
+# plt.show()
+
+# 篮板
+# x = pd.date_range('2003', '2017', freq='365D')
+# y = data.TRB
+# plt.xlabel('session')
+# plt.ylabel('blk')
+# plt.plot(x, y)
+# plt.show()
+
+
+# 助攻
+# x = pd.date_range('2003', '2017', freq='365D')
+# y = data.AST
+# plt.xlabel('session')
+# plt.ylabel('ast')
+# plt.plot(x, y)
+# plt.show()
+
+x = np.array([x for x in range(2003, 2016)])
+y = data.AST
 plt.xlabel('session')
-plt.ylabel('point')
-plt.plot(x, y)
+plt.ylabel('points')
+plt.bar(x, y, width=0.5, color='blue')
+plt.xticks(x)
+ax = plt.gca()
+x_lables = ax.xaxis
+for each in x_lables.get_ticklabels():
+    each.set_rotation(-45)
 plt.show()
