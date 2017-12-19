@@ -451,3 +451,36 @@ JavaScript warning: http://te.hotel.qunar.com/render/te, line 1: unreachable cod
 JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
 1512968679328	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1512968700830	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513673901266	geckodriver	INFO	geckodriver 0.19.1
+1513673901297	geckodriver	INFO	Listening on 127.0.0.1:62916
+1513673903377	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.5vPgm672SvYF"
+1513673911663	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 16144, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1513673925053	Marionette	INFO	Listening on port 62924
+1513673925865	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513673925941	Marionette	DEBUG	Register listener.js for window 4294967297
+1513673926008	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513673926158	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513673926159	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513673927063	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1513673927620	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1513673927814	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+1513673928588	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513673928961	Marionette	DEBUG	Received DOM event "beforeunload" for "http://hotel.qunar.com/"
+1513673929038	Marionette	DEBUG	Received DOM event "popstate" for "http://hotel.qunar.com/#"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://hotel.qunar.com/city/shanghai_city/#fromDate=2017-12-19&cityurl=shanghai_city&from=qunarHotel&toDate=2017-12-20, line 67: String.trim is deprecated; use String.prototype.trim instead
+JavaScript warning: http://te.hotel.qunar.com/render/te, line 1: unreachable code after return statement
+JavaScript warning: http://api.map.baidu.com/getscript?v=2.0&ak=CA4de4f8d8e3c3891eb39a78f8343cd4&services=&t=20171212143337, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: http://static.mediav.com/mv.js, line 1: unreachable code after return statement
+1513673940499	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513673961258	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513673982055	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513674002913	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513674023681	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513674044538	Marionette	DEBUG	Canceled page load listener because no navigation has been detected

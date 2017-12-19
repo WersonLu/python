@@ -22,4 +22,4 @@
 import win32com.client
 
 speaker = win32com.client.Dispatch("SAPI.SPVOICE")
-speaker.Seak("我是刘伟")
+speaker.Seak("我是刘生")
