@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/cnblogSpider" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/yunqiCrawl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sz_house" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/爬虫/wangyiyun" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/爬虫/qq" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

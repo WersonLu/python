@@ -27,7 +27,7 @@ conn = pymysql.connect(host='localhost', port=3306, user='root', password='root'
 cursor = conn.cursor()
 cursor.execute("DROP TABLE IF EXISTS DATA")
 
-sqlc = """
+sqlc ="""
     CREATE TABLE data (
         Title VARCHAR(100) ,
         URL VARCHAR(100),
