@@ -6,7 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import re
 import pymongo
-from yunqiCrawl.items import YunqiBookDetailItem, YunqiBookListItem
+from yunqiCrawl.items import YunqiBookListItem
 
 
 class YunqicrawlPipeline(object):

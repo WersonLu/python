@@ -8,7 +8,7 @@
 
 @contact: wersonliugmail.com
  
-@time: 2017/12/8 16:17
+@time: 2017/12/22 16:17
  
 '''
 # 去哪儿酒店 模拟浏览器爬取
@@ -17,8 +17,6 @@ import datetime
 from bs4 import BeautifulSoup
 
 from selenium import webdriver
-import selenium.webdriver.support.ui as ui
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 import time
@@ -34,7 +32,7 @@ class QunaSpider(object):
         # 搜索按钮
         ele_search = driver.find_element_by_xpath('/html/body/div[2]/div[2]/div/div/div[2]/form[1]/div[3]/div[1]/a')
 
-        ele_toCity.clear()  # 为什么要清除
+        ele_toCity.clear()  # 为什么要清除?
         ele_toCity.send_keys(to_city)  # 把to_city传入 ele_toCity这个取到的框
         ele_toCity.click()  # 点击这个框,填入操作
         ele_fromDate.clear()  # 清除入住框的其他信息
@@ -52,18 +50,22 @@ class QunaSpider(object):
                 break
             # 等待5秒,模拟鼠标滚动到下面加载更多
             time.sleep(5)
+            # 模拟滚动的js代码
             js = "window.scrollTo(0,document.body.scrollHeight);"
             driver.execute_script(js)
             time.sleep(5)
 
             htm_const = driver.page_source  # 取得网页内容
-            soup = BeautifulSoup(htm_const, 'html.parser', from_encoding='utf-8')  # 以html.parser规则初步清洗
+            soup = BeautifulSoup(htm_const, 'html.parser', from_encoding='utf-8')
             infos = soup.find_all(class_="item_hotel_info")  # 找到包含酒店信息的div块
-            f = codecs.open("qunae.txt", 'a', 'utf-8')  # 以追加模式打开一个文件
+            f = codecs.open("qunae.txt", 'a', 'utf-8')  # 以追加模式打开新建一个文件
 
             for info in infos:
-                f.write(str(page_num) + '--' * 10)  # 页码标识
+                # 先写入页码标识
+                f.write(str(page_num) + '--' * 10)
+                # 去除首位空格换行符
                 content = info.get_text().replace(" ", "").replace("\t", "").strip()
+
                 for line in [In for In in content.splitlines() if In.strip()]:
                     f.write(line)
                     f.write('\r\n')
@@ -76,12 +78,14 @@ class QunaSpider(object):
                 next_page.click()
                 # 同时page_num参数加1
                 page_num += 1
+                # 等待10秒
                 time.sleep(10)
             except Exception as e:
                 print(e)
                 break
 
-    def crawl(self, root_url, to_city):  # 参数为路径,目的地
+    # 参数为路径,目的地
+    def crawl(self, root_url, to_city):
         # 以系统时间转为日期并附带格式
         today = datetime.date.today().strftime('%Y-%m-%d')
         tomorrow = datetime.date.today() + datetime.timedelta(days=1)
@@ -89,14 +93,18 @@ class QunaSpider(object):
         driver = webdriver.Firefox(executable_path='D:\Anaconda3\geckodriver.exe')
         # 设置页面加载时间
         driver.set_page_load_timeout(50)
+        # 加载这个url路径
         driver.get(root_url)
+        # 窗口最大化
         driver.maximize_window()
         # 显式等待
         driver.implicitly_wait(10)
-        # 执行获取酒店的方法
+        # 带入参数执行上面的方法
         self.get_hotel(driver, to_city, today, tomorrow)
 
 
 if __name__ == "__main__":
+    # 实例化这个对象
     spider = QunaSpider()
+    # 调用里面的方法
     spider.crawl('http://hotel.qunar.com/', u"上海")

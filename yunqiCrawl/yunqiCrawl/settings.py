@@ -125,11 +125,11 @@ AUTOTHROTTLE_MAX_DELAY = 60
 # AUTOTHROTTLE_DEBUG = False
 
 # scrapy_redis 调度器
-SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+SCHEDULER = "yunqiCrawl.scrapy_redis.scheduler.Scheduler"
 # 用redis队列允许暂停恢复
 SCHEDULER_PERSIST = True
 # redis去重
-DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+# DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 
 REDIS_HOST = '127.0.0.1'
 REDIS_PORT = 6379
@@ -140,3 +140,8 @@ REDIS_PORT = 6379
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+FILTER_URL = None
+FILTER_HOST = 'localhost'
+FILTER_PORT = 6379
+FILTER_DB = 0
+SCHEDULER_QUEUE_CLASS = 'yunqiCrawl.scrapy_redis.queue.SpiderPriorityQueue'
