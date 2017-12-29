@@ -20,6 +20,7 @@ from PIL import Image
 
 # 定义登录函数
 def QR_login():
+    # 一个网上的解密函数
     def getGTK(cookie):
         """ 根据cookie得到GTK """
         hashes = 5381

@@ -96,7 +96,8 @@ conn = pymysql.connect(host='127.0.0.1',
                        charset='utf8mb4',
                        cursorclass=pymysql.cursors.DictCursor)
 cursor = conn.cursor()
-cookie, gtk, qzonetoken = QRLogin
+cookie, gtk, qzonetoken = QRLogin.QR_login()
+# requests 初始化
 s = requests.session()
 for qq in friend:
     for p in range(0, 1000):
@@ -115,19 +116,24 @@ for qq in friend:
             'need_private_comment': '1',
             'qzonetoken': qzonetoken
         }
-        response = requests.get('GET',
-                                'https://h5.qzone.qq.com/proxy/domain/taotao.qq.com/cgi-bin/emotion_cgi_msglist_v6',
-                                params=params, headers=headers, cookies=cookie)
+        response = s.request('GET',
+                             'https://h5.qzone.qq.com/proxy/domain/taotao.qq.com/cgi-bin/emotion_cgi_msglist_v6',
+                             params=params, headers=headers, cookies=cookie)
         print(response.status_code)
         text = response.text
 
         if not re.search('lib', 'text'):
-            print('%s说说下载完成' % s)
+            print('%s说说下载完成' % qq)
             break
         textlist = re.split('\{"certified"', text)[1:]
         for i in textlist:
+            data = {
+                "id": myMood['id'],
+                'time': myMood['time'],
+                'content': myMood['Mood_cont']
+            }
+            print(data)
             myMood = parse_mood(i)
-
             try:
                 insert_sql = '''
                                        insert into mood(id,content,time,sitename,pox_x,pox_y,tool,comments_num,date,isTransfered,name)

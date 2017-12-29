@@ -12,3 +12,105 @@
 1513434424643	geckodriver	INFO	Listening on 127.0.0.1:53565
 1513435331241	geckodriver	INFO	geckodriver 0.19.1
 1513435331241	geckodriver	INFO	Listening on 127.0.0.1:50422
+1514533444318	geckodriver	INFO	geckodriver 0.19.1
+1514533444341	geckodriver	INFO	Listening on 127.0.0.1:61259
+1514533444952	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.WRMdrrHfCchw"
+1514533445750	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514533447757	Marionette	INFO	Listening on port 61268
+1514533448254	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514533448332	Marionette	DEBUG	Register listener.js for window 4294967297
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+EBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%253A%252F%252Flogin.weibo.cn%252Flogin%252F&"
+1514533485105	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%253A%252F%252Flogin.weibo.cn%252Flogin%252F&"
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+1514534197079	geckodriver	INFO	geckodriver 0.19.1
+1514534197088	geckodriver	INFO	Listening on 127.0.0.1:60349
+1514534197660	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.LrBrqyr63Lov"
+1514534198806	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514534200567	Marionette	INFO	Listening on port 60356
+1514534200787	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514534200871	Marionette	DEBUG	Register listener.js for window 4294967297
+1514534200908	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514534201907	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514534201908	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514534202054	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome"
+1514534202158	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome"
+1514534202198	Marionette	DEBUG	Received DOM event "beforeunload" for "https://passport.weibo.cn/signin/welcome"
+1514534202269	Marionette	DEBUG	Received DOM event "pagehide" for "https://passport.weibo.cn/signin/welcome"
+1514534202271	Marionette	DEBUG	Received DOM event "unload" for "https://passport.weibo.cn/signin/welcome"
+1514534203438	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2F"
+1514534203440	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2F"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2176, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1514534256603	geckodriver	INFO	geckodriver 0.19.1
+1514534256612	geckodriver	INFO	Listening on 127.0.0.1:60683
+1514534257183	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\WERSON~1\\AppData\\Local\\Temp\\rust_mozprofile.vq8CWLzYeoFe"
+1514534257693	Marionette	INFO	Enabled via --marionette
+1514534259272	Marionette	INFO	Listening on port 60687
+1514534259312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514534259385	Marionette	DEBUG	Register listener.js for window 4294967297
+1514534259417	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514534260370	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514534260371	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514534260785	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome"
+1514534261203	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome"
+1514534261262	Marionette	DEBUG	Received DOM event "beforeunload" for "https://passport.weibo.cn/signin/welcome"
+1514534261440	Marionette	DEBUG	Received DOM event "pagehide" for "https://passport.weibo.cn/signin/welcome"
+1514534261442	Marionette	DEBUG	Received DOM event "unload" for "https://passport.weibo.cn/signin/welcome"
+1514534266246	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2F"
+1514534266427	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2F"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 16376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+eceived DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome"
+1514534552016	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome"
+1514534552049	Marionette	DEBUG	Received DOM event "beforeunload" for "https://passport.weibo.cn/signin/welcome"
+1514534552202	Marionette	DEBUG	Received DOM event "pagehide" for "https://passport.weibo.cn/signin/welcome"
+1514534552203	Marionette	DEBUG	Received DOM event "unload" for "https://passport.weibo.cn/signin/welcome"
+1514534552661	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2F"
+1514534553035	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2F"
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\wersonliu\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 3928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
