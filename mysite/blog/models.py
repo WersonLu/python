@@ -9,7 +9,7 @@ from django.core.urlresolvers import reverse
 
 
 # 定制自己的管理器
-class PublishedManger(models.Model):
+class PublishedManger(models.Manager):
     def get_queryset(self):
         return super(PublishedManger, self).get_queryset().filter(status='published')
 
@@ -34,6 +34,7 @@ class Post(models.Model):
                               choices=STATUS_CHOICES,
                               default='draft')
     objects = models.Manager()
+
     published = PublishedManger()
 
     class Meta:
