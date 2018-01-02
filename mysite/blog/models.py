@@ -1,50 +1,66 @@
 from django.db import models
-
-# Create your models here.
-
-from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
+'''
+#Command in the  shell to create Blog ' Post
 
+import random
+from django.contrib.auth.models import User
+from django.template.defaultfilters import slugify
+from faker import Factory
+fake = Factory.create()
+s = ' '
 
-# 定制自己的管理器
-class PublishedManger(models.Manager):
+user = User.objects.first()
+for item in range(1,40):
+    author = fake.name()
+    title = s.join(fake.words(random.randint(4,16)))
+    slug = slugify(title)
+    #slugify the title
+    status = 'published'
+    body = s.join(fake.paragraphs(random.randint(2,10)))
+    book = Post.objects.create(title=title, author=user, status=status, body=body, slug=slug )
+    print(author)
+    book.save()
+'''
+
+# Create your models here.
+
+class PublishedManager(models.Manager):
+
     def get_queryset(self):
-        return super(PublishedManger, self).get_queryset().filter(status='published')
-
+        return super(PublishedManager, self).get_queryset()\
+                .filter(status='published')
 
 class Post(models.Model):
-    STATUS_CHOICES = {
-        ('draft', 'Draft'),
-        ('published', 'Published')
-    }
-    # 转为varchar
+    STATUS_CHOICES = (
+            ('draft', 'Draft'),
+            ('published', 'Published'),
+            )
     title = models.CharField(max_length=250)
-    # 构建url用的
-    slug = models.SlugField(max_length=250, unique_for_date='publish')
+    slug = models.SlugField(max_length=250, unique_for_date="publish")
     author = models.ForeignKey(User, related_name='blog_posts')
-    # 转为text
     body = models.TextField()
-    # 创建时间
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
-    status = models.CharField(max_length=10,
-                              choices=STATUS_CHOICES,
-                              default='draft')
-    objects = models.Manager()
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default="draft")
 
-    published = PublishedManger()
+    objects = models.Manager()
+    published = PublishedManager()
+
 
     class Meta:
-        # 查询数据库时按这个字段降序排列
-        ordering = ('-publish',)
+        ordering = ('-publish', )
 
     def __str__(self):
         return self.title
 
     def get_absolute_url(self):
-        return reverse('blog:post_detail',
-                       args=[self.publish.year, self.publish.strftime('%m'),
-                             self.publish.strftime('%d'), self.slug])
+        return reverse('blog:post_detail', args=[self.publish.year, 
+            self.publish.strftime('%m'),
+            self.publish.strftime('%d'),
+            self.slug])
+
+

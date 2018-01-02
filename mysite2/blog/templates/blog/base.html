@@ -1,0 +1,19 @@
+<!--{% load staticfiles %}告诉 Django 去加载 django.contrib.staticfiles 应用提供的 staticfiles 模板标签-->
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <!--<link href="{% static 'css/blog.css' %}" rel="stylesheet">-->
+</head>
+<body>
+<div id="content">
+    {% block content %}
+    {% endblock %}
+</div>
+<div id="sidebar">
+    <h2>我的博客</h2>
+    <p>这是我的博客</p>
+</div>
+</body>
+</html>

@@ -1,12 +1,16 @@
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   File Name：     forms
-   Author :       aaa
-   date：          2018/1/1
--------------------------------------------------
-"""
+#!/usr/bin/env python
+
+# encoding: utf-8
+
+'''
+ 
+@author: wersonliu
+
+@contact: wersonliugmail.com
+ 
+@time: 2018/1/2 13:45
+ 
+'''
 from django import forms
 
 
