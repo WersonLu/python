@@ -19,4 +19,4 @@ def go(num):
         return go(num - 1) + go(num - 2)
 
 
-print(go(100))
+print(go(15))

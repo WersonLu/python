@@ -15,7 +15,7 @@ import json
 with open('jiupai.txt', "a")as f:
     for i in range(1, 20):
         url = 'http://appjph.jiupaicn.com/app/content/hot/list?type=1&page=' + str(i) + '&pageSize=10&_=1512821417704'
-        webdata = requests.get(url).text
+        webdata = requests.get(url).content.decode('utf-8')
 
         data = json.loads(webdata)
         news = data['resultData']
@@ -23,6 +23,6 @@ with open('jiupai.txt', "a")as f:
         for n in news:
             title = n['title']
             name = n['memberName']
-            f.write(title + name + '\n')
+            f.write(title + '\n')
+            f.write(name + '\n')
             print(title + name)
-

@@ -11,6 +11,7 @@
 @time: 2018/1/10 2:24
  
 '''
+
 a = (lambda x: (lambda y: x + y))
 b = a(99)
 print(b(3))
@@ -47,3 +48,4 @@ def selector():
 selector()
 
 selector()
+

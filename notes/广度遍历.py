@@ -10,7 +10,7 @@
 import os
 from collections import deque
 
-path = r"F:\workspace"
+path = r"D:\Anaconda3"
 queue = deque([])  # 队列
 queue.append(path)
 while len(queue) != 0:

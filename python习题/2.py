@@ -47,3 +47,6 @@ print(G)
 
 G1 = ([0 for i in range(5)])
 print(G1)
+
+
+
