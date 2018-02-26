@@ -55,3 +55,14 @@ for mob in list:
     print(mob)
     print(str(mob))
     print(send_sms(text, str(mob)))
+
+# import json
+# import requests
+#
+# class YunPian(object):
+#     def __init__(self,api_key):
+#         self.api_key=api_key
+#         self.single_send_url="http://106.ihuyi.com/webservice/sms.php?method=Submit"
+#
+#     def send_sms(self,code,mobile):
+#

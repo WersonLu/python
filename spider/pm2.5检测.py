@@ -58,7 +58,7 @@ if __name__ == '__main__':
         try:
             two_thread()
             # 自己设定多久执行一次单位秒
-            time.sleep(3600)
+            time.sleep(10)
 
         except KeyboardInterrupt:  # 用户中断执行
             print('用户终止程序')
