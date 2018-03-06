@@ -13,15 +13,17 @@
 '''
 
 
-class complex:
+class complex_a:
     def __init__(self, x, y):
         self.x = x
         self.y = y
 
     def show(self):
-        print(self.x, "+", self.y, "i")
+        print(self.x, "+", self.y)
 
 
-c1 = compile(1, 2)  # 有名对象
-
-compile(1, 2).show()  # 匿名对象
+# 实例化有名对象
+c1 = complex_a(1, 4)
+c1.show()
+# 实例化匿名对象
+complex_a(1, 6).show()

@@ -37,5 +37,5 @@ def get_code(m):
     print(s)
 
 
-for x in range(10):
-    get_code(7)
+for x in range(5):
+    get_code(2)

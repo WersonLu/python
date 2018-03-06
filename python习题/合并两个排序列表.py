@@ -22,3 +22,6 @@ def mergeTwoLists2(self, l1, l2):
     else:
         l2.next = self.mergeTwoLists(l1, l2.next)
         return l2
+
+
+mergeTwoLists2([1, 3, 6, 7], [5, 8, 9, 23])

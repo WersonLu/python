@@ -16,10 +16,13 @@
 import re
 
 file_name = 'test.txt'
-
+# 行数
 lines_count = 0
+# 字数
 words_count = 0
+# 字符串数
 chars_count = 0
+# 单词字典
 words_dict = {}
 lines_list = []
 

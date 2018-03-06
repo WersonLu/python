@@ -31,3 +31,7 @@ class test_singleton(object):
 
     def add(self):
         self.num_sum = 100
+
+
+a = test_singleton()
+print(a)

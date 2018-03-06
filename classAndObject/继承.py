@@ -19,6 +19,9 @@ class 王健林:
         self.mystr = "先定一个小目标，赚它一个一亿"
         self.money = 200000000000
 
+    def show(self):
+        print("我是", self.name, '我有', self.money)
+
 
 class 王思聪(王健林):  # 继承，
     def __init__(self):
@@ -26,10 +29,8 @@ class 王思聪(王健林):  # 继承，
         self.name = "王思聪"
 
 
-china王健林 = 王健林()
-china王思聪 = 王思聪()
-print(china王健林.money)
-print(china王健林.mystr)
-print(china王健林.name)
-print(china王思聪.name)
-print(china王思聪.money)
+wjl = 王健林()
+wjl.show()
+# 继承方法属性,自由属性覆盖父类同名属性
+wsc = 王思聪()
+wsc.show()
