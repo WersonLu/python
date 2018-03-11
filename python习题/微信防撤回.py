@@ -52,7 +52,7 @@ def text_reply(msg):
                 r" Message:%s" % (friend['NickName'], friend['RemarkName'], time.ctime(), reply_content),
                 toUserName='filehelper')
 
-    itchat.send(r"我已经收到你在【%s】发送的消息【%s】稍后回复。--微信助手(Python版)" % (time.ctime(), reply_content),
+    itchat.send(r"我已经收到你在【%s】发送的消息【%s】稍后回复" % (time.ctime(), reply_content),
                 toUserName=msg['filehelper'])
 
 

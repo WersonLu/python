@@ -27,7 +27,7 @@ class SendMail:
         msg = MIMEText(Message)  # 转化邮件文本
         msg["Subject"] = title  # 邮件标题
         msg["From"] = self.Sender  # 邮件发送者
-        msg["To"] = "yincheng8848@163.com"  # 谁来收
+        msg["To"] = "yincheng8848@163.com"  # 收件人
 
         self.mailsever.sendmail(self.Sender,
                                 maillist,
