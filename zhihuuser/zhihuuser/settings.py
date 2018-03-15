@@ -35,7 +35,7 @@ ITEM_PIPELINES = {
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 0.5
+DOWNLOAD_DELAY = 1
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16
@@ -100,7 +100,7 @@ COOKIES_ENABLED = False
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 MONGO_URI = "127.0.0.1:27017"  # 主机IP
 # MONGO_PORT = 27017  # 端口号
-MONGO_DATABASE = "wl"  # 库名
+MONGO_DATABASE = "zhihu"  # 库名
 # MONGO_COLL = "zhihu"  # collection名
 # MONGO_USER = "zhangsan"
 # MONGO_PSW = "123456"
