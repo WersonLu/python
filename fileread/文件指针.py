@@ -23,7 +23,7 @@
 file = open("3.txt", "r")
 print(file.tell())  # 0
 # mystr = file.readline()  # 读取英文，遇到换行符
-mystr2=file.read()
+mystr2 = file.read()
 # print(mystr)
 print(mystr2)
 # print(len(mystr))  # 15

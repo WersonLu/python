@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/blog" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bookmarks" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/核心编程巩固" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/qq_mood/qq" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -14,9 +14,9 @@
 import pandas as pd
 
 # ,chunksize=2000,low_memory=False
-df = pd.read_csv('E:\\2000W\\800W-1000W.csv',iterator=True)
+df = pd.read_csv('E:\\2000W\\800W-1000W.csv', iterator=True)
 
 # print(df.shape)  # (2000053, 33) 200万条,33行
 # print(df.describe())
-chuck=df.get_chunk(5).head()
+chuck = df.get_chunk(5).head()
 print(chuck)

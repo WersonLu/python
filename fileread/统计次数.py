@@ -17,12 +17,13 @@ myset = set(mylist)
 for item in myset:
     print("the %d has found %d" % (item, mylist.count(item)))
 
-a={}
+a = {}
 for i in mylist:
-    if mylist.count(i)>1:
-        a[i]=mylist.count(i)
+    if mylist.count(i) > 1:
+        a[i] = mylist.count(i)
 print(a)
 # 字典去重
 from collections import Counter
-a=Counter([1,2,2,2,2,3,3,3,4,4,4,4])
+
+a = Counter([1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4])
 print(a)
